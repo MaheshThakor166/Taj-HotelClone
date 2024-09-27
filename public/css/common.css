@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Cinzel", serif;
+}
+/*common css*/
+:root{
+    --primary-color:#ad8b3a;
+    --dark-color:#070006;
+    --light-color:#ffffff;
+}
+li{
+    list-style-type: none;
+}
+a{
+ text-decoration: none;
+}
+/*common margin*/
+.margin-view{
+    margin: 120px 0 0 0;
+}
+.primary-btn{
+     background-color: var(--primary-color);
+     padding: 10px 15px;
+     color: var(--light-color);
+     font-weight:400;
+     text-transform: uppercase;
+     font-size: 22px;
+     font-family: "Inter", sans-serif;
+     cursor: pointer;
+     transition: 0.5s all ease-in-out;
+     text-decoration: none;
+}
+.primary-btn:hover{
+    background-color: rgba(173,139,58, 0.8);
+    color:var(--light-color)
+}
+@media screen and (max-width: 1199px) {
+    .primary-btn {
+        padding: 10px 6px;
+        color: var(--light-color);
+        font-size: 15px;
+    }
+}
+/*common title*/
+
+/* .main-title{
+    font-size: 40px;
+   position: relative;
+    display: flex;
+}
+.border-title{
+    height: 5px;
+    position: absolute;
+    top:50%;
+    width: 100px;
+    display: block;
+    background-color: var(--dark-color);
+}
+ */
+ .main-title {
+    display: flex;
+    align-items: center; /* Centers the content vertically */
+}
+
+.border-title {
+    display: inline-block;
+    width: 60px;
+    height: 1px;
+    background-color: var(--primary-color);
+    margin-right: 10px;
+    position: relative;
+}
+
+.main-title {
+   font-size: 50px;
+   color: var(--primary-color);
+    padding-left: 10px; /* Add a little padding for spacing */
+    font-family: "Cinzel", serif;
+}

@@ -122,37 +122,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-      <script>
-            <script type="text/javascript"></script>
-        $(document).ready(function () {
-            $('.your-class').slick({
-                dots: true,            // Show dots for navigation
-                infinite: true,        // Infinite loop
-                speed: 500,            // Transition speed
-                slidesToShow: 3,       // Number of slides to show at once
-                slidesToScroll: 1,     // Number of slides to scroll at once
-                autoplay: true,        // Enable auto-play
-                autoplaySpeed: 3000,   // Auto-play interval
-                arrows: true,          // Enable arrows for next/prev
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1
-                        }
-                    }
-                ]
-            });
-        });
-    </script>
 
 <script src="{{ asset('js/main.js') }}"></script>
 </body>

@@ -6,7 +6,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Login', function () {
+Route::get('/login', function () {
     return view(view: 'Login');
 });
 

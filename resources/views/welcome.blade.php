@@ -34,7 +34,7 @@
 
 <body>
     <!--header section start-->
-    <header>
+    <header class="header-view">
         <div class="logo-view">
             <a href="#">
                 <img src="./images/taj.png" alt="Booking" />
@@ -85,8 +85,8 @@
 
     <!--Latest offer section start-->
     <section class="latest-offer margin-view">
-        <div class="container">
-            <div class="row">
+        <div class="container-fluid">
+            <div class="row mx-5">
                 <div class="col-lg-6">
                     <h5 class="main-title"><span class="border-title"></span>Latest Offers</h5>
                 </div>
@@ -98,20 +98,98 @@
                 </div>
 
             </div>
+            <div class="your-class mt-5">
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p1.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Pool Booking
+                    </div>
+                </div>
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p2.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Hotel Booking
+                    </div>
+                </div>
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p3.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Hotel Booking
+                    </div>
+                </div>
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p4.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Beacth Booking
+                    </div>
+                </div>
+                {{-- <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p5.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Hotel Booking
+                    </div>
+                </div> --}}
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p6.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           villa booking
+                    </div>
+                </div>
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p7.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Vila Booking
+                    </div>
+                </div>
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p8.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Hotel Booking
+                    </div>
+                </div>
+                {{-- <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p1.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Pool Booking
+                    </div>
+                </div>
+
+                <div class="offer-content-box">
+                    <div class="offer-img">
+                          <img src="{{ asset('images/p1.jpg') }}" alt="">
+                    </div>
+                    <div class="offer-content">
+                           Pool Booking
+                    </div>
+                </div> --}}
+
+
+            </div>
+
         </div>
     </section>
     <!--Latest offer section end-->
 
-{{--
-    <div class="your-class">
-        <div><h3>Slide 1</h3></div>
-        <div><h3>Slide 2</h3></div>
-        <div><h3>Slide 3</h3></div>
-        <div><h3>Slide 4</h3></div>
-        <div><h3>Slide 5</h3></div>
-        <div><h3>Slide 6</h3></div>
-    </div>
- --}}
+
+
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
@@ -122,7 +200,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-
+<script src="{{ asset('js/sliders.js') }}"></script>
 <script src="{{ asset('js/main.js') }}"></script>
 </body>
 

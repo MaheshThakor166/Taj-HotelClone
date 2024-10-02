@@ -36,7 +36,7 @@
                        <div class="slignup-link d-flex justify-content-between mx-2 mt-4">
                           <span class="signup-txt text-white">Not a membrer?</span>
                           <span class="signup-link">
-                            <a href="#" class="text-grey text-white-50">Signup now</a>
+                            <a href="{{ route('register') }}" class="text-grey text-white-50">Signup now</a>
                             </span>
                        </div>
                 </form>

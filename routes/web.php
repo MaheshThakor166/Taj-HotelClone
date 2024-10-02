@@ -6,8 +6,11 @@ Route::get('/', function () {
     return view('layout');
 });
 
-Route::get('/Login', function () {
+Route::get('/login', function () {
     return view(view: 'auth.login');
+});
+Route::get('/acreate', function () {
+    return view(view: 'auth.acreate');
 });
 
 // Route::get('/Home', function () {

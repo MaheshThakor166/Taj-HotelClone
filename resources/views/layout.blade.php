@@ -6,15 +6,15 @@
 <body>
    <!-- #region -->
    <div>
-        @include('include.header') 
+        @include('include.header')
     </div>
 
     <div>
-        @include('include.banner') 
+        @include('include.banner')
     </div>
 
     <div>
-        @include('include.offer') 
+        @include('include.offer')
     </div>
 
     <div>

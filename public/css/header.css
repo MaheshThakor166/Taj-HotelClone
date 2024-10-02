@@ -1,6 +1,6 @@
 /*header section start*/
-header {
-    position: sticky;
+/* header {
+ position: sticky;
     top: 0;
     position: relative;
     display: flex;
@@ -10,8 +10,27 @@ header {
     z-index: 1100;
     top: 0;
     width: 100%;
+} */
+ header{
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1100;
+    top: 0;
+    /* background:#a378118f; */
+    width: 100%;
+    box-shadow: -9px -1px 1px 0px #76612ccc;
+ }
+
+/* body .banner-section {
+    margin-top: -130px;
 }
 
+body:not(.banner-section){
+    margin-top: 130px;
+
+} */
 header .logo-view {
     max-width: 320px;
     margin: 0 69px 0 12px;
